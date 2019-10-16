@@ -1,0 +1,24 @@
+{
+    "name": "krgupta/mailable",
+    "description": "Mail template management",
+    "authors": [
+        {
+            "name": "Kamlesh Gupta",
+            "email": "webworldgk@gmail.com"
+        }
+    ],
+   	"require": {
+    	"php": ">=7.0",
+    	"laravel/framework": "^5.5",
+    	"laravelcollective/html": "^5.5"
+    },
+  	"require-dev": {
+  	},
+  	"autoload": {
+    	"psr-4": {
+	      "Krgupta\\Mailable\\": "src/",
+    	},
+  	},
+  	"minimum-stability": "dev",
+  	"prefer-stable": true,
+}
